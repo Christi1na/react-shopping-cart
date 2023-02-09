@@ -1,8 +1,9 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.div`
-    width: 500px;
+    width: 600px;
     margin: 0 auto;
+    padding: 20px;
     /* border: 1px solid #111; */
     border-radius: 11px;
     box-shadow: 8px 5px 15px #929292;
@@ -22,6 +23,9 @@ export const Wrapper = styled.div`
             margin: 0 auto;
             h2, p {
                 margin-top: 0;
+            }
+            h2 {
+                font-size: 32px;
             }
             >div {
                 input {
